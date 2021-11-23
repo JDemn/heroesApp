@@ -1,10 +1,15 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 
 export const Navbar = () => {
+    const navigate = useNavigate();
     const handleLogout =()=> {
         //TODO
         console.log('handle logout');
+        navigate('/login', {
+            replace : true
+        });
     }
     // className={ (isActive) => {
     //     console.log(isActive);         know the value on className, it have a prop is active that is a object
