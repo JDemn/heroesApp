@@ -37,7 +37,7 @@ export const Heroe = () => {
                     className = "btn btn-outline-info"
                     onClick = { handleReturn }
                 > 
-                    Return
+                    Back
                 </button>
            </div>
         </div>

@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 
 import { HeroesApp } from './HeroesApp';
 
+import './styles/styles.scss';
+
 ReactDOM.render(
   <React.StrictMode>
     <HeroesApp />
