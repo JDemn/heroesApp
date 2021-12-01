@@ -1,0 +1,25 @@
+@media (max-width: 950px) { 
+    .hero__cardStyles{
+        display: block;
+        flex-direction: column;
+        
+        .card {
+            .rownoGitters__style {
+                display: block;
+                flex-direction: column;
+                padding: 16px;
+                .img__style {
+                    width: 100%;
+                }
+                //otro div
+                .details__heroStyle {
+                    width: 100%;
+                    .card-body{
+                        display: block;
+                        flex-direction: row;
+                    }
+                }
+            }
+        }
+    }    
+}

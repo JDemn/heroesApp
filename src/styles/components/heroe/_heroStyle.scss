@@ -1,0 +1,20 @@
+@media (max-width: 950px) { 
+    .hero__style {
+        display: block;
+        flex-direction: column;
+        padding: 16px;
+
+        .img__hero {
+            width: 100%;
+            margin-bottom: 1.4rem;
+        }
+        .hero__details{
+            display: block;
+            width: 100%;
+            button {
+                display: block;
+                width: 100%;
+            }
+        }
+    }    
+}

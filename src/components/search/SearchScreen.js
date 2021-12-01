@@ -32,13 +32,10 @@ export const SearchScreen = () => {
 
     return (
         <>
-            <h1>Search</h1>
-            <hr />
+            <div className="row search__row mt-4">
 
-            <div className="row">
-
-                <div className="col-5">
-                    <h4>Search</h4>
+                <div className="col-5 search__field">
+                    <h4>Search something</h4>
                     <hr></hr>
 
                     <form onSubmit={handleSearch}>
@@ -59,12 +56,12 @@ export const SearchScreen = () => {
                         </button>
                     </form>
                 </div>
-                <div className="col-7">
+                <div className="col-7 result__field">
                     <h4>Resultados</h4>
                     <hr />
                     {
                         (q === '')
-                            ? <div className="alert alert-info"> Search a hero </div>
+                            ? <div className="alert alert-info"> Hi, search a hero !!</div>
                             : (heroesFiltered.length === 0)
                             && <div className="alert alert-danger"> Not results for : {q}</div>
 

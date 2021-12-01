@@ -1,0 +1,25 @@
+@media (max-width: 950px) { 
+    .search__row{
+        display: flex;
+        flex-direction: column;
+        
+        .search__field {
+            display: block;
+            width: 100%;
+            h4{
+                margin-top: 1.2rem;
+                background-color: #CFF4FC;
+                border-radius: 3px;
+                padding: 2.5px;
+            }
+        }
+        .result__field{
+            display: block;
+            width: 100%;
+        }
+        button {
+            width: 100%;
+            margin-bottom: 1.4rem;
+        }
+    }
+}

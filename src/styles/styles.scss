@@ -3,3 +3,9 @@
 
 //components
 @import './components/auth';
+//hero
+@import './components/heroe/-heroList.scss';
+@import './components/heroe/heroStyle';
+@import './components/heroe/heroCard';
+//search
+@import './components/search/search';

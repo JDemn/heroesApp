@@ -14,13 +14,13 @@ export const HeroCard = (
     const imgPath = `/assets/${id}.jpg`;
 
     return (
-        <div className = "col animate__animated animate__fadeIn">
+        <div className = "col animate__animated animate__fadeIn hero__cardStyles">
             <div className = "card">
-                <div className = "row no-gutters" >
-                    <div className="col-4">
+                <div className = "row no-gutters rownoGitters__style" >
+                    <div className="col-4 img__style">
                         <img src = { imgPath } className = "card-img" alt = { superhero }/>
                     </div>
-                    <div className = "col-8">
+                    <div className = "col-8 details__heroStyle">
                         <div className = "card-body">
                             <h5 className = "card-title">{ superhero }</h5>
                             <p className = "card-text">{ alter_ego }</p>
