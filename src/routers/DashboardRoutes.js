@@ -10,7 +10,7 @@ import { Navbar } from "../components/ui/NavBar"
 export const DashboardRoutes = () => {
     return (
         <>
-            <Navbar />
+            <Navbar/>
             <div className = "container">
                 <Routes>
                     <Route path="marvel" element={<MarvelScreen />} />

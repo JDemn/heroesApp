@@ -8,7 +8,7 @@
             width: 100%;
             h4{
                 margin-top: 1.2rem;
-                background-color: #CFF4FC;
+                background-color: lighten($color: $primary, $amount: 6);
                 border-radius: 3px;
                 padding: 2.5px;
             }

@@ -57,7 +57,7 @@ export const SearchScreen = () => {
                     </form>
                 </div>
                 <div className="col-7 result__field">
-                    <h4>Resultados</h4>
+                    <h4>Results</h4>
                     <hr />
                     {
                         (q === '')
