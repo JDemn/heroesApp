@@ -17,8 +17,10 @@ export const LoginScreen = () => {
             }
         }
         dispatch(action)
+        //leer la última ruta navegada que se encuentra en local storage //leer la última búsqueda realizada
+        const lastPath = localStorage.getItem('lastPath') || '/dc';
 
-        navigate('/dc', {
+        navigate(lastPath, {
             replace : true
         });    
     };
